@@ -3,7 +3,7 @@ import '../src/style.scss';
 
 $(document).ready(function() {
 
-    var key = 'AIzaSyBRKufCYWxbXrsYyb8K2de_KAkqo_ph6NQ';
+    var key '/* insert API **/';
     var playlistId = 'PLHPTxTxtC0ibabHy6NWYuZDn9xCZt0NP3';
     var URL = 'https://www.googleapis.com/youtube/v3/playlistItems';
 
