@@ -3,9 +3,9 @@ import '../src/style.scss';
 
 $(document).ready(function() {
 
-    var key = 'AIzaSyBRKufCYWxbXrsYyb8K2de_KAkqo_ph6NQ';
+    var key = API_KEY;
     var playlistId = 'PLHPTxTxtC0ibabHy6NWYuZDn9xCZt0NP3';
-    var URL = 'https://www.googleapis.com/youtube/v3/playlistItems';
+    var URL = 'https://www.googleapis.com/youtube/v3/playlistItems'  ;
 
     var options = {
         part: 'snippet',
